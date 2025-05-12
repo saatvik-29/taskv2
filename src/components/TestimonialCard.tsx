@@ -13,14 +13,14 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
   avatarSrc,
 }) => {
   return (
-    <div className="bg-gray-100 rounded-lg px-4">
+    <div className="bg-gray-100 rounded-lg px-4 lg:px-60 py-6 shadow-md max-w-full flex flex-col justify-center items-center">
       {/* Logo */}
       <div className="mb-4 mt-4">
         <Image src={logoSrc} alt="Logo" width={100} height={20} />
       </div>
 
       {/* Message */}
-      <p className="text-gray-800 text-m font-semibold mb-6">
+      <p className="text-gray-800 text-m font-semibold mb-6 items-center text-center">
         {message}
       </p>
 

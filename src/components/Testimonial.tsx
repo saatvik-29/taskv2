@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const Testimoniol: React.FC = () => {
   return (
-    <section className="bg-white py-12 px-1">
+    <section className="bg-white py-12 px-10">
       <div className="text-center max-w-2xl mx-auto mb-10">
         <h2 className="text-3xl font-bold text-black mb-4">
           What Our Customers Say
