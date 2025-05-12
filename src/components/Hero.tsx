@@ -12,7 +12,7 @@ const HeroSection: React.FC = () => {
             Your Supercharged Design Workflow.
           </h1>
           <p className="text-lg md:text-xl text-[#769eec] mb-8">
-            We've been told it is not possible to overachieve our customers'
+            We've been told it is not possible to overachieve our customer's
             expectations. We have not reinvented the wheel, we decided to build
             upon it.
           </p>
